@@ -4,21 +4,31 @@
 
 html, body {
 	margin: 0;
+	font-family: 'Roboto Mono', monospace;
+font-family: 'Spirax', cursive;
+
 }
 
 header, footer {
+	margin-top: 10px;
+	background: red;
+	padding-top: 20px;
+	box-shadow: 0 0 10px black;
 
 }
 
 .centered {
-
+color:white;
 }
 
 header .subtitle {
 
+
 }
 
 h1 {
+	color: blue;
+	font-family: Helvetica;
 
 }
 
@@ -39,23 +49,28 @@ section {
 
 }
 
-h2 {
-
+main h2 {
+	border-bottom: 5px solid black;
 }
 
 h3 {
+	color:red;
+	font-variant: small-caps;
 
 }
 
 p {
+	font-variant: small-caps;
 
 }
 
 .details {
+	font-size: 14px;
 
 }
 
 .object {
+	color: red;
 
 }
 
@@ -64,5 +79,6 @@ p {
 }
 
 footer h2 {
+color: white;
 
 }
